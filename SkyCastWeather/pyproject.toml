@@ -1,0 +1,11 @@
+[project]
+name = "skycast"
+version = "1.0.0"
+description = "Weather forecast app with AI-powered summaries"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.1.1",
+    "google-genai>=1.41.0",
+    "gunicorn>=23.0.0",
+    "requests>=2.32.4",
+]
